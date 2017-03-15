@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateActivityTypesTable extends Migration
+class CreateActivitytypesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -28,6 +28,6 @@ class CreateActivityTypesTable extends Migration
      */
     public function down()
     {
-         Schema::drop('activityTypes');
+         Schema::drop('activity_types');
     }
 }
